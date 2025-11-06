@@ -1,0 +1,57 @@
+nav {
+    /* position: -webkit-sticky; */
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    padding: 12px;
+    color: #7C51B4;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+}
+
+.logo {
+  height: 2em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1em #7C51B4);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 1em #7C51B4);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.logo {
+    animation: logo-spin infinite 5s linear;
+  }
+}
+
+.entete {
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+}

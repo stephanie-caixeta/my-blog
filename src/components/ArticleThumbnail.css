@@ -1,0 +1,43 @@
+
+.articleCard {
+  background: rgba(255, 255, 255, 0.769);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  border: 3px dotted #ffffff1a;
+  overflow: hidden;
+}
+
+.articleCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-color: #cb64ff;
+}
+
+.articleCard img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.articleCard h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #000000;
+}
+
+.articleCard h3 {
+  text-align: center;
+}
+
+.articleCard p {
+  color: rgba(0, 0, 0, 0.7);
+  /* line-height: 1.6; */
+  margin-bottom: 0;
+}
+
+.category {
+  color: #cb64ff;
+}
